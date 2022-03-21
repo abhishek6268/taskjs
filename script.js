@@ -131,15 +131,15 @@ console.log(element);
 
 // set attribute we can set html tags and there properties with this method
 
-var change;
+var obj6268;
 
-change =  document.getElementById("demo").setAttribute("style","border : 10px dotted yellow;");
+obj6268 =  document.getElementById("demo").setAttribute("style","border : 10px dotted yellow;");
 
 document.getElementById("demo").setAttribute("class","header");
 
-var change = document.getElementById("demo").getAttribute("class");  
+var obj6268 = document.getElementById("demo").getAttribute("class");  
 
-console.log(change);
+console.log(obj6268);
 
 // 13/3/21
 
@@ -194,7 +194,7 @@ abhi = document.querySelector("#demo").style.color = "red";
 console.log(abhi);
 
 // class name : it is used to create new class in the document with the help of dom
-
+ 
 let silence;
 
 silence =  document.querySelector("#demo1").innerHTML;
@@ -205,7 +205,7 @@ silence=document.querySelector(".xyz").style.color = " green ";
 console.log(silence);
 
 
-// class list : it have multiple methids by which we can add or remove a class from given tag
+// class list : it have multiple methods by which we can add or remove a class from given tag
 
 let tar;
 
@@ -224,7 +224,7 @@ tar=document.querySelector(".old ").style.color = "tar";
 console.log(tar);
 // removing new classes
 
-
+=
 
 
 
